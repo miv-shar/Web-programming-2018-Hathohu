@@ -28,6 +28,7 @@ div {
 .middle{	
 	display:table-cell;
 	width:500px;
+	max-width:500px;
 }
 .el4{
 	overflow:auto;
@@ -36,16 +37,20 @@ div {
 	max-height:25vh;
 }
 .el5{
-	width:50%;	
+	width:125px;	
+	max-width:125px;	
 	overflow:auto;
 }
 .el6{
-	width:50%;	
+	width:125px;
+	max-width:125px;	
 	overflow:auto;
 }
 .el7{
 	overflow:auto;	
 	max-height:50vh;
+	width:250px;	
+	max-width:250x;
 }
 .el8{
 	clear: both;
@@ -62,13 +67,14 @@ div {
 	display:table;
 }
 .E456{
-	display:table-cell;
-	
+	display:table-cell;	
+	max-width:100%;
 
 }
 .E56{
 	display:flex;
 	min-height:25vh;
 	height:25vh;
-	max-height:25vh;
+	max-height:25vh;		
+	max-width:250px;
 }
