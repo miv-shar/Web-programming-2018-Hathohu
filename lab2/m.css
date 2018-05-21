@@ -1,0 +1,54 @@
+@media screen and (max-width:900px){
+div{
+	display:flex;
+	flex-direction:column;
+	clear:both;
+	overflow-y:scroll;
+	max-width:100vw;
+	min-width:100vw;
+	min-height:25%;
+	height:25%;
+	max-height:25%;
+	}
+html{
+	overflow-y:scroll;
+}	
+.E56{
+	flex-direction:column;
+}
+.E456{
+	display:flex;
+}
+.E4567{
+	display:flex;
+}
+.middle{
+	float:right;
+	}	
+.el1{
+	display:flex;	
+	height:25px;
+	min-height:25px;
+	max-height:25px;
+	}
+.el3{	
+	float:left;
+	display:flex;
+}	
+.el2{	
+	display:flex;
+	}
+.el4{	
+	display:flex;
+	}
+.el5{	
+	display:flex;
+	}
+.el6{	
+	display:flex;
+	
+	}
+.el7{	
+	display:flex;
+	}	
+}
