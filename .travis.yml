@@ -5,7 +5,7 @@ cache: pip
 install:
   - pip install awscli
 script:
-    -make "lab2/index.html"
+    -make
 deploy:
   on:
     branch: master
