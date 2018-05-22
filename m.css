@@ -7,7 +7,8 @@
 		flex-direction:column-reverse;
 	}
 	div{
-		max-height:none;
+		min-height:25vh;
+		height:auto;
 	}
 	/* alligning everything in columns*/
 	.layout{
@@ -29,6 +30,7 @@
 	float:right;
 	}
 	.el4{
+	max-height:none;
 	min-width:100vw;
 	max-width:100vw;
 	}
