@@ -6,6 +6,8 @@
 	.wrap{
 		flex-direction:column-reverse;
 	}
+	div{
+	}
 	/* alligning everything in columns*/
 	.layout{
 	-webkit-flex-direction:column;
