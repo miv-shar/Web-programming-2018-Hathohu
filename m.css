@@ -7,6 +7,7 @@
 		flex-direction:column-reverse;
 	}
 	div{
+		max-height:none;
 	}
 	/* alligning everything in columns*/
 	.layout{
