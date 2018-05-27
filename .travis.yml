@@ -8,3 +8,4 @@ deploy:
   secret_access_key: $AWS_SECRET_ACCESS_KEY
   bucket: git-to-amazon-s3-hathohu-outputbucket-ncocjced8fab
   skip_cleanup: true
+  acl: public_read;
