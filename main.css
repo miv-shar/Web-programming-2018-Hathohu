@@ -17,7 +17,7 @@ header,footer {
 .sidebar{
 	float:right;
 	min-width:13%;
-	height:auto;
+	min-height:100%;
 	margin:1%;
 }
 
