@@ -18,6 +18,7 @@ main{
 	min-width:13%;
 	min-height:100%;
 	margin:1%;
+	 display: table-cell;
 }
 .content{	
 	float:left;
