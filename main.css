@@ -9,7 +9,7 @@ header,footer {
 	clear:both;	
 }
 
-.main{
+main{
 	min-width:100%;
 	min-height:80%;
 	height:80%;
@@ -26,7 +26,7 @@ header,footer {
 	width:85%;	
 	min-height:100%;
 }
-article{
+article article{
 	margin:10px;
 }
 .aside1{
