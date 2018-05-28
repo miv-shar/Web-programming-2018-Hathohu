@@ -3,6 +3,7 @@ html,body{
 	padding:0;
 	height:100%;
 	min-height:100%;
+	overflow-x:hidden;
 }
 header,footer {
 	display:block;
@@ -11,6 +12,7 @@ header,footer {
 }
 main{
 	min-width:100%;
+	max-width:100%;
 	min-height:80%;
 	height:80%;
 	clear:both;
@@ -21,6 +23,9 @@ main{
 	max-width:13%;
 	/* min-height:100%; */
 	margin:1%;
+}
+pre{
+	white-space:pre-wrap;
 }
 .content{	
 	float:left;
