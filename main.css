@@ -16,6 +16,7 @@ main{
 .sidebar{
 	float:right;
 	min-width:13%;
+	max-width:13%;
 	min-height:100%;
 	margin:1%;
 	 display: table-cell;
@@ -23,6 +24,7 @@ main{
 .content{	
 	float:left;
 	width:85%;	
+	max-width:85%;
 	min-height:100%;
 }
 article article{
