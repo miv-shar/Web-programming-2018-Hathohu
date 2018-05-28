@@ -5,6 +5,7 @@ html,body{
 	min-height:100%;
 }
 header,footer {
+	display:block;
 	min-height:10%;
 	clear:both;	
 }
@@ -12,14 +13,14 @@ main{
 	min-width:100%;
 	min-height:80%;
 	height:80%;
+	clear:both;
 }
 .sidebar{
 	float:right;
 	min-width:13%;
 	max-width:13%;
-	min-height:100%;
+	/* min-height:100%; */
 	margin:1%;
-	 display: table-cell;
 }
 .content{	
 	float:left;
