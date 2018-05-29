@@ -8,7 +8,8 @@
 		<link rel="stylesheet" type="text/css" href="colors.css"/>		
 		<!-- <link rel="stylesheet" type="text/css" href="m.css"/>			 -->			
 		<script src="html5shiv.js"></script>
-		<script src="ajax-reader.js"></script>
+		<script src="ajax-reader.js"></script>			
+		<script src="upload.js"></script>
 		<meta  name="viewport" content="width=device-width, initial-scale=1"/>
 	</head>
 	<body>
@@ -22,7 +23,13 @@
 			</header>
 			<main>
 				<article class="content">
-					pl
+					<form name="upload">
+					  <input type="file" name="myfile"> <br> <br>
+					  <input type="submit" value="Go!"> <br> <br>
+					  <progress value="0" max="100" id="progress">
+						Текст
+					  </progress>
+					</form>
 				</article>
 				<aside class="sidebar">
 					<pre id="poetry"></pre>
