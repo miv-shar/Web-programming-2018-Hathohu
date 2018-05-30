@@ -2,7 +2,7 @@
 <html lang="ru">
 	<head>
 		<meta charset="UTF-8"/>
-		<title> About | sci-fi в лицах </title>
+		<title> Upload an image | sci-fi в лицах </title>
 		<link rel="shortcut icon" type="image/x-icon" href="favicon.ico"/>
 		<link rel="stylesheet" type="text/css" href="main.css"/>		
 		<link rel="stylesheet" type="text/css" href="colors-mint.css"/>		
@@ -26,7 +26,12 @@
 			</header>
 			<main>
 				<article class="content">
-					i
+					<form name="upload">
+					  <input type="file" name="myfile"> <br> <br>
+					  <input type="submit" value="Go!"> <br> <br>
+					  <progress value="0" max="100" id="progress">
+					  </progress>
+					</form>
 				</article>
 				<aside class="sidebar">
 					<pre id="poetry"></pre>

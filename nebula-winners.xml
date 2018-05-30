@@ -2,28 +2,49 @@
 <winners>
 	<row>
 		<type>
+			Best Novel
 		</type>
-		<name>
-		</name>
+		<wname>
+			The Obelisk Gate
+		</wname>
 		<author>
+			N. K. Jemisin
 		</author>
 	</row>
 	
 	<row>
 	    <type>
+			Best Novella
 		</type>
-		<name>
-		</name>
+		<wname>
+			Every Heart a Doorway
+		</wname>
 		<author>
+			Seanan McGuire
 		</author>
 	</row>
 	
 	<row>
 	    <type>
+			Best Novelette
 		</type>
-		<name>
-		</name>
+		<wname>
+			The Tomato Thief
+		</wname>
 		<author>
+			Ursula Vernon
+		</author>
+	</row>	
+	
+		<row>
+	    <type>			
+			Best Short Story
+		</type>
+		<wname>
+			Seasons of Glass and Iron
+		</wname>
+		<author>
+			Amal El-Mohtar
 		</author>
 	</row>	
 </winners>
