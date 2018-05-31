@@ -1,10 +1,11 @@
 function loadXMLDoc() {
-  var xhr = new XMLHttpRequest();
+  var xhr = new XMLHttpRequest(); 	
   xhr.onreadystatechange = function() {
     if (this.readyState == 4 && this.status == 200) {
       myFunction(this);
     }
   };    
+  
   xhr.open("GET", "hugo-winners.xml", true);
   xhr.send();
 }

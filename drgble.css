@@ -1,0 +1,15 @@
+#contdragable{
+	border: 1px solid black;
+	padding:2px;
+	max-width:90%;
+	clear:both;
+}
+#contdraginside{
+	border:1px solid black;
+	min-width:100%;
+	min-height:50px;
+}
+img{
+	height:10%;
+	max-height:10%;
+}
