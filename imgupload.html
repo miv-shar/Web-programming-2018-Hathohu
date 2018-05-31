@@ -6,7 +6,8 @@
 		<link rel="shortcut icon" type="image/x-icon" href="favicon.ico"/>
 		<link rel="stylesheet" type="text/css" href="css/main.css"/>		
 		<link rel="stylesheet" type="text/css" href="css/colors-mint.css"/>		
-		<link rel="stylesheet" type="text/css" href="css/m.css"/>			
+		<link rel="stylesheet" type="text/css" href="css/m.css"/>		
+		<link rel="stylesheet" type="text/css" href="css/upl.css"/>		
 		<script src="js/html5shiv.js"></script>
 		<script src="js/ajax-reader.js"></script>			
 		<script src="js/upload.js"></script>
@@ -34,10 +35,9 @@
 				</aside>
 				<article class="content">
 					<form name="upload">
-					 <input type="file" id="uimg" accept="image/*" multiple onchange="doSmthWithFiles(this.files)"/> <br> <br>
+					 <input type="file" id="uimg" accept="image/*" multiple onchange="previewFile()"/> <br> <br>
 					  <input type="submit" value="Go!"> <br> <br>
-					  <img id="output" src="" alt="this should be an image you've uploaded"/>
-					  <progress value="0" max="100" id="progress">
+					  <img id="output" class="thumbnail" src="" alt="this should be an image you've uploaded"/>
 					  </progress>
 					</form>
 				</article>

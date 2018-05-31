@@ -1,0 +1,7 @@
+img.thumbnail{
+	min-height:250px;
+	max-height:250px;
+	width:auto;
+	min-width:auto;	
+	max-width:none;
+}
