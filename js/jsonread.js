@@ -24,7 +24,7 @@ function rjson(){
     if (this.readyState === 4 && this.status === 200) {
 		var myObj = JSON.parse(this.responseText);
 		var x, txt;
-        txt += "<table id='SejunTable' class='ha'>";
+        txt = "<table id='SejunTable' class='ha'>";
         for (x in myObj) {
             txt += "<tr><td>" + myObj[x].type + "</td><td>" +
 			+ myObj[x].wname + "</td><td>" +
