@@ -39,6 +39,7 @@ article{
 header{
 	font-family:arial;
 }
+/*setting up text in navigation*/
 nav a{
 	color: white;	
 	text-decoration: none;	
