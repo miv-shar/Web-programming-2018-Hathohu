@@ -1,3 +1,6 @@
 table.ha{
 	border:1px solid black;
 }
+table.ha td, tr {
+	border:1px solid black;
+} 
