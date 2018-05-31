@@ -1,3 +1,4 @@
+/*basic layout*/
 html,body{
 	margin:0;
 	padding:0;
@@ -24,9 +25,6 @@ main{
 	/* min-height:100%; */
 	margin:1%;
 }
-pre{
-	white-space:pre-wrap;
-}
 .content{	
 	float:left;
 	width:85%;	
@@ -36,15 +34,21 @@ pre{
 article article{
 	margin:10px;
 }
-.aside1{
+/*end basic layout section  */
+pre{
+	white-space:pre-wrap; /*Moving text to the next line in case of overflow*/
+}
+/* Asides in articles */
+.asideR{
 	float:right;
 }
-.aside2{
+.asideL{
 	float:left;
 }
 img{
 	width:150px;
 }
+/* wraper for clearing */
 .dist{
 	clear:both;
 }
