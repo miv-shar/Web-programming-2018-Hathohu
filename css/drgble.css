@@ -19,3 +19,9 @@ div.p101{
 	min-height:100px;
 	clear:both;
 }
+img.d:hover{
+	box-shadow: 0 0 2px 1px #80c6dd;
+}
+div.p892:hover{
+	box-shadow: 0 0 2px 1px yellow;
+}
