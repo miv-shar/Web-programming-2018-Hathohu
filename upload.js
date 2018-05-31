@@ -3,7 +3,7 @@ function upload(file) {
   var xhr = new XMLHttpRequest();
   xhr.upload.onprogress = function(event) {
     document.getElementById('progress').value = event.loaded/event.total*100;
-	}
+	};
   }
   xhr.open("POST", "upload", true);
   xhr.send(file);
@@ -19,3 +19,7 @@ function invokeUpload(){
     return false;
 	}
 }
+function(event) {
+    var output = document.getElementById('output');
+    output.src = URL.createObjectURL(event.target.files[0]);
+ }
