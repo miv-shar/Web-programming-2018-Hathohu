@@ -1,11 +1,10 @@
 function rjson(){
 var xhr = new XMLHttpRequest();
 xhr.onreadystatechange = function() {
-    var txt = ""; 
-	var myObj;
+    var txt = "";
 	var x;
 	if (this.readyState == 4 && this.status == 200) {
-        myObj = JSON.parse(this.responseText);
+        var myObj = JSON.parse(this.responseText);
         txt += "<table id='SejunTable' class='ha'>"
         for (x in myObj) {
             txt += "<tr><td>" + myObj[x].type + "</td><td>" +
