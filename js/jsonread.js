@@ -30,7 +30,7 @@ function rjson(){
             txt += '<th>' + x + '</th>';
             }
 		txt+="</tr>"
-        for (x in myObj['row']) {
+        for (x in myObj['winners']) {
             txt += "<tr><td>" + myObj[x].type + "</td><td>" +
 			+ myObj[x].wname + "</td><td>" +
             + myObj[x].author + "</td></tr>";
