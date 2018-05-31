@@ -5,7 +5,6 @@ function loadXMLDoc() {
       myFunction(this);
     }
   };    
-  xhr.Response.Cache.SetCacheability(HttpCacheability.NoCache); 
   xhr.open("GET", "hugo-winners.xml", true);
   xhr.send();
 }
