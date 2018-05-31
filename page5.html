@@ -8,12 +8,11 @@
 		<link rel="stylesheet" type="text/css" href="css/colors-mint.css"/>		
 		<link rel="stylesheet" type="text/css" href="css/m.css"/>				
 		<script src="js/html5shiv.js"></script>
-		<script src="js/ajax-reader.js"></script>			
-		<script src="js/upload.js"></script>
+		<script src="js/ajax-reader.js"></script>	
 		<meta  name="viewport" content="width=device-width, initial-scale=1"/>
 	</head>
 	<body> 
-			<<header>
+			<header>
 				<section class="name">sci-fi в лицах</section>
 				<nav>
 				<a href="index.html">Главная|</a> 
@@ -36,9 +35,12 @@
 				<article class="content">
 					<h3>Подпишитесь на наши обновления!</h3>
 					<form method="POST" id="page5form">
-						<input type="text" name="uname" required pattern="#[0-9A-Fa-f]{6}"><label for="uname"><b>Ник</b></label> <br> <br>
-						<input type="email" name="umail" required pattern="^[0-9A-Fa-f]{6}@^[0-9A-Fa-f]"><label for="umail"><b>Email</b></label> <br> <br>
-						<input type="url" name="ublog"><label for="ublog"><b>Ведете блог? Поделитесь с нами!</b></label> <br> <br>
+						<label for="uname"><b>Ник</b></label><br>
+						<input type="text" id="uname" required pattern="#[0-9A-Fa-f]{6}"> <br> <br>
+						<label for="umail"><b>Email</b></label> <br>
+						<input type="email" id="umail" required pattern="^[0-9A-Fa-f]{6}@^[0-9A-Fa-f]"> <br> <br>
+						<label for="ublog"><b>Ведете блог? Поделитесь с нами!</b></label> <br>
+						<input type="url" id="ublog"><br> <br>
 						<fieldset>						
 						<legend>Любимый поджанр?</legend>
 						 <input type="radio" name="ganre" value="cyberpunk"> Киберпанк<Br>
@@ -51,7 +53,8 @@
 						 <input type="radio" name="ganre" value="technofantasy"> Технофэнтэзи<Br>			
 						 <input type="radio" name="ganre" value="other"> Другое/Не могу выбрать/Не ваше дело<Br>
 						</fieldset>
-						<input type="color" name="ucolor"><label for="ucolor"><b>Любимый цвет</b></label> <br> <br>
+						<label for="ucolor"><b>Любимый цвет</b></label> <br>
+						<input type="color" id="ucolor"><br> <br>
 					</form>
 					
 				</article>
