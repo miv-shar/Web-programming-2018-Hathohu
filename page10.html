@@ -2,7 +2,7 @@
 <html lang="ru">
 	<head>
 		<meta charset="UTF-8"/>
-		<title> About | sci-fi в лицах </title>
+		<title> File drag | sci-fi в лицах </title>
 		<link rel="shortcut icon" type="image/x-icon" href="favicon.ico"/>
 		<link rel="stylesheet" type="text/css" href="main.css"/>		
 		<link rel="stylesheet" type="text/css" href="colors-mint.css"/>	<!--Color scheme -->
@@ -28,7 +28,10 @@
 			<main>
 				<article class="content">
 					<article>					
-						
+						<div id="contdragfile" ondrop="dropHandler(event);" ondragover="allowDrop2(event);">
+						  drag files here to disply names and sizes below
+						</div>
+						<span id="inf"> </span>
 					</article>
 				</article>
 				<aside class="sidebar">

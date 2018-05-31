@@ -29,3 +29,33 @@ function reset(){
 	var myNode = document.getElementById("contdraginside");
 	myNode.innerHTML = '';
 }
+/*gets name and size of files draged to the zone*/
+function dropHandler(ev) {		
+  ev.preventDefault();
+  var info = "";
+  if (ev.dataTransfer.items) {
+    for (var i = 0; i < ev.dataTransfer.items.length; i++) {
+      if (ev.dataTransfer.items[i].kind === 'file') {
+        var file = ev.dataTransfer.items[i].getAsFile();
+        info += file.name + " " + file.size + "bytes<br>";
+      }
+    }
+  } else {
+    for (var i = 0; i < ev.dataTransfer.files.length; i++) {
+      info += ev.dataTransfer.files[i].name + " " + file.size + "bytes<br>";
+    }
+  } 
+  document.getElementById("inf").innerHTML = info;
+  removeDragData(ev)
+}
+function removeDragData(ev) {
+  console.log('Removing drag data')
+
+  if (ev.dataTransfer.items) {
+    // Use DataTransferItemList interface to remove the drag data
+    ev.dataTransfer.items.clear();
+  } else {
+    // Use DataTransfer interface to remove the drag data
+    ev.dataTransfer.clearData();
+  }
+}
