@@ -1,8 +1,8 @@
 function rjson(){
 obj = { "table":"winners"};
 dbParam = JSON.stringify(obj);
-xmlhttp = new XMLHttpRequest();
-xmlhttp.onreadystatechange = function() {
+xhr = new XMLHttpRequest();
+xhr.onreadystatechange = function() {
     if (this.readyState == 4 && this.status == 200) {
         myObj = JSON.parse(this.responseText);
         txt += "<table id='SejunTable' class='ha'>"
@@ -15,7 +15,7 @@ xmlhttp.onreadystatechange = function() {
         document.getElementById("jsonTable").innerHTML = txt;
     }
 }
-xmlhttp.open("POST", "sejun.json", true);
-xmlhttp.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
-xmlhttp.send("x=" + dbParam);
+xhr.open("GET", "sejun.json", true);
+xhr.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
+xhr.send("x=" + dbParam);
 }
