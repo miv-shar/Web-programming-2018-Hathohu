@@ -9,9 +9,9 @@ function allowDrop(ev) {
 function allowDrop2(ev) {
     ev.preventDefault();
 }
-// function drag(ev) {
-    // ev.dataTransfer.setData("text", ev.target.id);
-// }
+function drag(ev) {
+    ev.dataTransfer.setData("text", ev.target.id);
+}
 /*simpy moves element to othe dragable zone*/
 function drop(ev) {
     ev.preventDefault();
