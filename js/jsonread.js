@@ -36,7 +36,7 @@ function rjson(){
             + myObj['winners'][x].author + "</td></tr>";
         }
         txt += "</table>" 
-        document.getElementById("jsonTable").innerHTML = myObj.name;
+        document.getElementById("jsonTable").innerHTML = txt;
 		}
 	};
 	xmlhttp.open("GET", "sejun.json", true);
