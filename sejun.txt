@@ -2,25 +2,30 @@
    "winners": {
       "row": [
          {
-            "type": "Best Novel",
-            "wname": "The Obelisk Gate",
-            "author": "N. K. Jemisin"
+            "type": "Японский роман",
+            "wname": "ウルトラマンF / Urutoraman efu",
+            "author": "Ясуми Кобаяси"
          },
          {
-            "type": "Best Novella",
-            "wname": "Every Heart a Doorway",
-            "author": "Seanan McGuire"
+            "type": "Японский рассказ",
+            "wname": "最後にして最初のアイドル / Saigo ni shite saisho no aidoru",
+            "author": "Генген Кусано"
          },
          {
-            "type": "Best Novelette",
-            "wname": "The Tomato Thief",
-            "author": "Ursula Vernon"
+            "type": "Переводной роман",
+            "wname": "United States of Japan",
+            "author": "Питер Тиерьяс "
          },
          {
-            "type": "Best Short Story",
-            "wname": "Seasons of Glass and Iron",
-            "author": "Amal El-Mohtar"
-         }
+            "type": "Переводной рассказ",
+            "wname":  "Назад, поверните назад",
+            "author": "Джеймс Типтри-младший "
+         },
+         {
+            "type": "Нонфикшн",
+            "wname": "ＳＦのＳは、ステキのＳ / SF no S wa suteki no S",
+            "author": "Харуна Икэдзава"
+         },
       ]
    }
 }
