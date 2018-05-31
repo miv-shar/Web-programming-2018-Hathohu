@@ -8,9 +8,9 @@ xhr.onreadystatechange = function() {
         myObj = JSON.parse(this.responseText);
         txt += "<table id='SejunTable' class='ha'>"
         for (x in myObj) {
-            txt += "<tr><td>" + myObj[x].row.type + "</td><td>" +
-			+ myObj[x].row.wname + "</td><td>" +
-            + myObj[x].row.author + "</td></tr>";
+            txt += "<tr><td>" + myObj[x].type + "</td><td>" +
+			+ myObj[x].wname + "</td><td>" +
+            + myObj[x].author + "</td></tr>";
         }
         txt += "</table>" 
         document.getElementById("jsonTable").innerHTML = txt;
