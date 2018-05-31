@@ -1,4 +1,5 @@
 function rjson(){
+var obj, dbParam, xhr, myObj, x, txt = "";
 obj = { "table":"winners"};
 dbParam = JSON.stringify(obj);
 xhr = new XMLHttpRequest();
