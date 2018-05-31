@@ -18,5 +18,5 @@ xhr.onreadystatechange = function() {
 }
 xhr.open("GET", "sejun.json", true);
 xhr.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
-xhr.send("x=" + dbParam);
+xhr.send();
 }
