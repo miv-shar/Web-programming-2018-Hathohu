@@ -27,7 +27,7 @@ function rjson(){
 		x=0;
         txt = "<table id='SejunTable' class='ha'><tr>";
 		for (x in myObj) {
-            table += '<th>' + name + '</th>';
+            table += '<th>' + x + '</th>';
             }
 		table+="</tr>"
         for (x in myObj['row']) {
