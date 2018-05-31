@@ -36,7 +36,6 @@ function rjson(){
             + myObj[x].author + "</td></tr>";
         }
         txt += "</table>" 
-        var myObj = JSON.parse(this.responseText);
         document.getElementById("jsonTable").innerHTML = myObj.name;
 		}
 	};
