@@ -18,7 +18,7 @@ function myFunction(xml) {
     x[i].getElementsByTagName("type")[0].childNodes[0].nodeValue +
     "</td><td>" +
     x[i].getElementsByTagName("wname")[0].childNodes[0].nodeValue +
-    "</td></tr>";
+    "</td></td>";
 	x[i].getElementsByTagName("author")[0].childNodes[0].nodeValue +
     "</td></tr>";
   }
