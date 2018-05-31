@@ -23,6 +23,7 @@ function rjson(){
 	xmlhttp.onreadystatechange = function() {
     if (this.readyState === 4 && this.status === 200) {
 		var myObj = JSON.parse(this.responseText);
+		myObj = myObj[0];
 		var x, txt;
         txt = "<table id='SejunTable' class='ha'>";
         for (x in myObj) {
