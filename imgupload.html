@@ -24,10 +24,10 @@
 				<a href="page6.html">6  </a>
 				</nav>
 			</header>
-			<main>
+			<main>	
 				<article class="content">
 					<form name="upload">
-					  <input type="file" name="myfile"> <br> <br>
+					 <input type="file" id="uimg" accept="image/*" multiple onchange="doSmthWithFiles(this.files)"/> <br> <br>
 					  <input type="submit" value="Go!"> <br> <br>
 					  <progress value="0" max="100" id="progress">
 					  </progress>
