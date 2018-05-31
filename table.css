@@ -1,5 +1,7 @@
 table.ha{
 	border:1px solid black;
+	margin-left:auto; 
+    margin-right:auto;
 }
 table.ha td, tr {
 	border:1px solid black;
