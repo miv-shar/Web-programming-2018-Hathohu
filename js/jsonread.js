@@ -23,10 +23,13 @@ function rjson(){
 	xmlhttp.onreadystatechange = function() {
     if (this.readyState === 4 && this.status === 200) {
 		var myObj = JSON.parse(this.responseText);
-		myObj = myObj[0];
 		var x, txt;
-        txt = "<table id='SejunTable' class='ha'>";
-        for (x in myObj) {
+        txt = "<table id='SejunTable' class='ha'><tr>";
+		for (name in myObj) {
+            table += '<th>' + name + '</th>';
+            }
+		table+="</tr>"
+        for (x in myObj['row']) {
             txt += "<tr><td>" + myObj[x].type + "</td><td>" +
 			+ myObj[x].wname + "</td><td>" +
             + myObj[x].author + "</td></tr>";
