@@ -1,24 +1,26 @@
-	{
-		"row": [
-			{
-				"type": "tBest Novel",
-				"wname": "The Obelisk Gate",
-				"author": "N. K. Jemisin"
-			},
-			{
-				"type": "Best Novella",
-				"wname": "Every Heart a Doorway",
-				"author": "Seanan McGuire"
-			},
-			{
-				"type": "Best Novelette",
-				"wname": "The Tomato Thief",
-				"author": "Ursula Vernon"
-			},
-			{
-				"type": "Best Short Story",
-				"wname": "Seasons of Glass and Iron",
-				"author": "Amal El-Mohtar"
-			}
-		]
-	}
+{
+   "winners": {
+      "row": [
+         {
+            "type": "Best Novel",
+            "wname": "The Obelisk Gate",
+            "author": "N. K. Jemisin"
+         },
+         {
+            "type": "Best Novella",
+            "wname": "Every Heart a Doorway",
+            "author": "Seanan McGuire"
+         },
+         {
+            "type": "Best Novelette",
+            "wname": "The Tomato Thief",
+            "author": "Ursula Vernon"
+         },
+         {
+            "type": "Best Short Story",
+            "wname": "Seasons of Glass and Iron",
+            "author": "Amal El-Mohtar"
+         }
+      ]
+   }
+}

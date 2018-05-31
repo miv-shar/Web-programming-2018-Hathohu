@@ -1,10 +1,10 @@
 function rjson(){
-var obj, dbParam, xhr, myObj, x, txt = "";
-obj = { "table":"winners"};
-dbParam = JSON.stringify(obj);
-xhr = new XMLHttpRequest();
+var xhr = new XMLHttpRequest();
 xhr.onreadystatechange = function() {
-    if (this.readyState == 4 && this.status == 200) {
+    var txt = ""; 
+	var myObj;
+	var x;
+	if (this.readyState == 4 && this.status == 200) {
         myObj = JSON.parse(this.responseText);
         txt += "<table id='SejunTable' class='ha'>"
         for (x in myObj) {

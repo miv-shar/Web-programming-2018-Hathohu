@@ -1,0 +1,10 @@
+@media only screen  and (orientation:portrait){
+	header,footer,main, .sidebar, .content {
+	min-width:100%;
+	max-width:100%;
+	display:block;
+	}
+	.sidebar{
+		float:left;
+	}
+}

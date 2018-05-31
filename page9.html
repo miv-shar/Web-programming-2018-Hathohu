@@ -4,13 +4,13 @@
 		<meta charset="UTF-8"/>
 		<title> Favfilms(repeat) | sci-fi в лицах </title>
 		<link rel="shortcut icon" type="image/x-icon" href="favicon.ico"/>
-		<link rel="stylesheet" type="text/css" href="main.css"/>		
-		<link rel="stylesheet" type="text/css" href="colors-mint.css"/>	<!--Color scheme -->
-		<link rel="stylesheet" type="text/css" href="drgble.css"/>	 <!-- Style for table-->	
-		<!-- <link rel="stylesheet" type="text/css" href="m.css"/>			 -->			
-		<script src="html5shiv.js"></script> <!-- Pollyfil for IE-->
-		<script src="ajax-reader.js"></script> 	<!--Reads poem to the sidebar-->
-		<script src="dnd.js"></script>  <!--Java script for drag and drop-->
+		<link rel="stylesheet" type="text/css" href="css/main.css"/>		
+		<link rel="stylesheet" type="text/css" href="css/colors-mint.css"/>	<!--Color scheme -->
+		<link rel="stylesheet" type="text/css" href="css/drgble.css"/>	 <!-- Style for table-->	
+		<link rel="stylesheet" type="text/css" href="css/m.css"/>						
+		<script src="js/html5shiv.js"></script> <!-- Pollyfil for IE-->
+		<script src="js/ajax-reader.js"></script> 	<!--Reads poem to the sidebar-->
+		<script src="js/dnd.js"></script>  <!--Java script for drag and drop-->
 		<meta  name="viewport" content="width=device-width, initial-scale=1"/>
 	</head>
 	<body>
@@ -32,11 +32,11 @@
 						<h3>choose top 3 films from the list and drag 'em inside this box(you can choose multiple instances of one film, to show how you luv it)</h3>
 						<div id="contdraginside" ondrop="copydrop(event)" ondragover="allowDrop(event)" data-max-items="3"></div> <br>
 						<div id="contdragable" ondrop="copydrop(event)" ondragover="allowDrop2(event)">
-							<img id="img1" src="img/annihilation.jpg" draggable="true" ondragstart="drag(event)">							
-							<img id="img2" src="img/arrival.jpg" draggable="true" ondragstart="drag(event)">
-							<img id="img3" src="img/co2001.jpg" draggable="true" ondragstart="drag(event)">							
-							<img id="img4" src="img/fountain.jpg" draggable="true" ondragstart="drag(event)">							
-							<img id="img5"src="img/solaris.jpg" draggable="true" ondragstart="drag(event)">	
+							<img id="img1" alt="Постер фильма 'Аннигиляция'" src="img/annihilation.jpg" draggable="true" ondragstart="drag(event)">							
+							<img id="img2" alt="Постер фильма 'Прибытие'" src="img/arrival.jpg" draggable="true" ondragstart="drag(event)">
+							<img id="img3" alt="Постер фильма 'Космическая одиссея 2001'" src="img/co2001.jpg" draggable="true" ondragstart="drag(event)">							
+							<img id="img4" alt="Постер фильма 'Фонтан'(Дарен Аранофски)" src="img/fountain.jpg" draggable="true" ondragstart="drag(event)">							
+							<img id="img5" alt="Постер фильма 'Солярис'(советский)" src="img/solaris.jpg" draggable="true" ondragstart="drag(event)">	
 						</div>
 					</article>
 				</article>
