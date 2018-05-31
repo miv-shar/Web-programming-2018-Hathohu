@@ -1,10 +1,10 @@
-#contdragable{
+div.p891{
 	border: 1px solid black;
 	padding:2px;
 	max-width:90%;
 	clear:both;
 }
-#contdraginside{
+div.p892{
 	border:1px solid black;
 	min-width:100%;
 	min-height:50px;
@@ -13,7 +13,7 @@ img{
 	height:10%;
 	max-height:10%;
 }
-#contdragfile{
+div.p101{
 	border:1px solid black;
 	min-width:100px;
 	min-height:100px;
