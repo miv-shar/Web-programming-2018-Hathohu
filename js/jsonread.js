@@ -21,7 +21,7 @@
 function rjson(){
 	var xmlhttp = new XMLHttpRequest();
 	xmlhttp.onreadystatechange = function() {
-    if (this.readyState == 4 && this.status == 200) {
+    if (this.readyState === 4 && this.status === 200) {
 		var myObj = JSON.parse(this.responseText);
 		var x, txt;
         txt += "<table id='SejunTable' class='ha'>";
@@ -35,6 +35,6 @@ function rjson(){
         document.getElementById("jsonTable").innerHTML = myObj.name;
 		}
 	};
-	xmlhttp.open("GET", "sejun.txt", true);
+	xmlhttp.open("GET", "sejun.json", true);
 	xmlhttp.send();
 	}
