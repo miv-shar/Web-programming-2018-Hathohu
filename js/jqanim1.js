@@ -18,7 +18,7 @@
 		 // $("#rdble").animate({
 			// color: '#fff'
 		 // }, 1000);
-		if ($("#rdble").css('color') != '#333333') {
+		if ($("#rdble").css('color') == 'rgb(255, 255, 255)') {
 		 $("#rdble").animate({
 			color: "#333333"
 		 }, 1000);
