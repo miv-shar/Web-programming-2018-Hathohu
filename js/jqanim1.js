@@ -1,9 +1,10 @@
   $( function() {
+	var oSize = $("#bs").css('fontSize');
     $( "button#GO" ).on( "click", function() {
 		//1 - hide/show list
 		$( "#sh").toggle(1000);
 		//2 - big-small
-		var oSize = "5px";
+		// var oSize = "5px";
 		if ($("#bs").css('fontSize') != oSize) {
 		 $("#bs").animate({
 			fontSize: oSize
