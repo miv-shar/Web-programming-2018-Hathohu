@@ -18,17 +18,10 @@ main{
 	height:80%;
 	clear:both;
 }
-.sidebar{
-	float:right;
-	min-width:18%;
-	max-width:18%;
-	/* min-height:100%; */
-	margin:1%;
-}
 .content{	
 	float:left;
-	width:80%;	
-	max-width:80%;
+	width:100%;	
+	max-width:100%;
 	min-height:100%;
 }
 article article{
@@ -47,8 +40,28 @@ pre{
 }
 img{
 	width:150px;
+	margin:0 10px 10px 10px;
 }
 /* wraper for clearing */
 .dist{
 	clear:both;
 }
+.anim{
+	text-align:center;
+	}
+.center	{
+	margin: auto;
+	width:20em;
+}
+.boxy-box{
+	padding:10px;		
+	margin:10px;		
+	border: 2px solid green;
+	border-radius:10px;
+	font-size:10px;
+	background-color:gray;
+}
+.go{
+	border-radius:10px;	
+	font-size:20px;
+}	

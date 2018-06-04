@@ -1,5 +1,5 @@
 @media only screen  and (orientation:portrait){
-	header,footer,main, .sidebar, .content {
+	header,footer,main,.content {
 	min-width:100%;
 	max-width:100%;
 	display:block;

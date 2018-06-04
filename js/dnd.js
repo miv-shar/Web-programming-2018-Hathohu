@@ -1,6 +1,6 @@
 /*only allows drop, when number of
 elements does not exceed limitations*/
-function allowDrop(ev) {
+function allowDrop(ev) {	
     if (document.getElementById("contdraginside").childElementCount
     <document.getElementById("contdraginside").dataset.maxItems){
         ev.preventDefault();}
