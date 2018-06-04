@@ -29,4 +29,7 @@
 		 },1000)
 		}
     });
+	$("button#Funk").on("click", function() {
+		$.fn.myFunction();		
+	});
   }	 );

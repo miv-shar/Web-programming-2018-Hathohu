@@ -1,7 +1,4 @@
-// jQuery.fn.extend({
-    // bloodred: function () {
-        // $(this).
-			// });
-	// return zigzagText;
-    // }
-// });
+    $.fn.myFunction = function(){ 
+        alert('You were told not to push this button!\nYou will be punished!'); 
+		window.close();
+    }
